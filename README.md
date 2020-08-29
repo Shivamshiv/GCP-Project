@@ -1,5 +1,5 @@
 ## Deployment of Web-server and Database on Google Cloud Platform using Kubernetes and MySQL
-*In this project web-server as a front-end is launched on the pod which is running on one of the node launched by the GKE(Google Kubernetes Engine) which is further integrated by the MySQL database as a backend. These two services i.e. GKE and MySQL is running on two different projects(developer and production) in two different VPC which is connected by VPC peering. Pods running on different nodes is connected to the Load Balancer to manage the incoming traffic form the client.*
+*In this project web-server as a front-end is launched on the pod which is running on one of the nodes launched by the GKE(Google Kubernetes Engine) which is further integrated by the MySQL database as a backend. These two services i.e. GKE and MySQL are running on two different projects(developer and production) in two different VPC which is connected by VPC peering. Pods running on different nodes are connected to the Load Balancer to manage the incoming traffic from the client.*
 
 ### Task Synopsis
 ```
